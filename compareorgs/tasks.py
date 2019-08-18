@@ -567,8 +567,6 @@ def compare_orgs_task(job):
 		job.error = error
 		job.error_stacktrace = traceback.format_exc()
 
-		send_error_email(job, error)
-
 
 	job.finished_date = datetime.datetime.now()
 	job.save()
