@@ -57,7 +57,7 @@ def index(request):
 			org_two.instance_url = job_form.cleaned_data['org_two_metadata_url']
 			org_two.org_id = job_form.cleaned_data['org_two_org_id']
 			org_two.org_name = job_form.cleaned_data['org_two_org_name']
-			org_two.org_number = 1
+			org_two.org_number = 2
 			org_two.job = job
 			org_two.save()
 

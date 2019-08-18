@@ -310,6 +310,8 @@ def retrieve_files(org, metadata_client, retrieve_request, component_retrieve_li
 		Method to phyiscally retrieve files from Salesforce via the metadata API 
 	"""
 
+	zipfile_name = 'metadata%s.zip' % (str(org.org_number))
+
 	# The overall package to retrieve
 	package_to_retrieve = metadata_client.factory.create('Package')
 	package_to_retrieve.apiAccessLevel = None
@@ -346,7 +348,7 @@ def retrieve_files(org, metadata_client, retrieve_request, component_retrieve_li
 	else:
 
 		# Save the zip file result to server
-		zip_file = open('metadata.zip', 'w+')
+		zip_file = open(zipfile_name, 'w+')
 		zip_file.write(b64decode(retrieve_result.zipFile))
 		zip_file.close()
 
@@ -357,7 +359,7 @@ def retrieve_files(org, metadata_client, retrieve_request, component_retrieve_li
 			ComponentType.objects.filter(org = org.id).delete()
 
 		# Open zip file
-		metadata = ZipFile('metadata.zip', 'r')
+		metadata = ZipFile(zipfile_name, 'r')
 
 		# Loop through files in the zip file
 		for filename in metadata.namelist():
@@ -399,8 +401,8 @@ def retrieve_files(org, metadata_client, retrieve_request, component_retrieve_li
 				continue
 
 		# Delete zip file, no need to store
-		if os.path.isfile('metadata.zip'):
-			os.remove('metadata.zip')
+		if os.path.isfile(zipfile_name):
+			os.remove(zipfile_name)
 
 
 		# Set the Org to finish when all of above is complete
