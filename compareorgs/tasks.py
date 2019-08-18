@@ -23,6 +23,7 @@ from django.conf import settings
 from suds.client import Client
 from base64 import b64decode
 from django.template import RequestContext, Context, Template, loader
+from zipfile import ZipFile
 
 
 reload(sys)

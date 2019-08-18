@@ -137,12 +137,6 @@ def compare_orgs(request, job_id):
 
 		# Return URL when job is finished
 		return_url = '/compare_result/' + str(job.random_id) + '/'
-
-		# If no header is in URL, keep it there
-		if 'noheader' in request.GET:
-			if request.GET.noheader == '1':
-				return_url += '?noheader=1'
-
 		return HttpResponseRedirect(return_url)
 
 	return render_to_response('loading.html', RequestContext(request, {'job': job}))	
