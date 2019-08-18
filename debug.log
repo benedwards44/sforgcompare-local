@@ -1,0 +1,318 @@
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/Users/beedwards/Git/sforgcompare-local/compareorgs/views.py", line 12, in <module>
+    from compareorgs.tasks import download_metadata_metadata, download_metadata_tooling, create_offline_file
+  File "/Users/beedwards/Git/sforgcompare-local/compareorgs/tasks.py", line 2, in <module>
+    from celery import Celery
+ImportError: No module named celery
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/Users/beedwards/Git/sforgcompare-local/compareorgs/views.py", line 12, in <module>
+    from compareorgs.tasks import download_metadata_metadata, download_metadata_tooling, create_offline_file
+  File "/Users/beedwards/Git/sforgcompare-local/compareorgs/tasks.py", line 23, in <module>
+    from difflib import HtmlDiffx
+ImportError: cannot import name HtmlDiffx
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/Users/beedwards/Git/sforgcompare-local/compareorgs/views.py", line 12, in <module>
+    from compareorgs.tasks import download_metadata_metadata, download_metadata_tooling
+  File "/Users/beedwards/Git/sforgcompare-local/compareorgs/tasks.py", line 23, in <module>
+    from difflib import HtmlDiffx
+ImportError: cannot import name HtmlDiffx
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/Users/beedwards/Git/sforgcompare-local/compareorgs/views.py", line 12, in <module>
+    from compareorgs.tasks import download_metadata_metadata, download_metadata_tooling
+  File "/Users/beedwards/Git/sforgcompare-local/compareorgs/tasks.py", line 23, in <module>
+    from difflib import HtmlDiffx
+ImportError: cannot import name HtmlDiffx
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 337, in resolve
+    for pattern in self.url_patterns:
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 365, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 360, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/Users/beedwards/Git/sforgcompare-local/sforgcompare/urls.py", line 18, in <module>
+    ) + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+NameError: name 'settings' is not defined
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 337, in resolve
+    for pattern in self.url_patterns:
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 365, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 360, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/Users/beedwards/Git/sforgcompare-local/sforgcompare/urls.py", line 18, in <module>
+    ) + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+NameError: name 'settings' is not defined
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 337, in resolve
+    for pattern in self.url_patterns:
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 365, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 360, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/Users/beedwards/Git/sforgcompare-local/sforgcompare/urls.py", line 20, in <module>
+    + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+TypeError: bad operand type for unary +: 'list'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 337, in resolve
+    for pattern in self.url_patterns:
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 365, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 360, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/Users/beedwards/Git/sforgcompare-local/sforgcompare/urls.py", line 20, in <module>
+    + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+TypeError: bad operand type for unary +: 'list'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/Users/beedwards/Git/sforgcompare-local/compareorgs/views.py", line 63
+    RequestContext(request,'job_form': job_form}))
+                                     ^
+SyntaxError: invalid syntax
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/Users/beedwards/Git/sforgcompare-local/compareorgs/views.py", line 63
+    RequestContext(request,'job_form': job_form}))
+                                     ^
+SyntaxError: invalid syntax
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/Users/beedwards/Git/sforgcompare-local/compareorgs/views.py", line 46
+    org_one = Org())
+                   ^
+SyntaxError: invalid syntax
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 339, in resolve
+    sub_match = pattern.resolve(new_path)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 223, in resolve
+    return ResolverMatch(self.callback, args, kwargs, self.name)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 230, in callback
+    self._callback = get_callable(self._callback_str)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/utils/functional.py", line 32, in wrapper
+    result = func(*args)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 97, in get_callable
+    mod = import_module(mod_name)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/Users/beedwards/Git/sforgcompare-local/compareorgs/views.py", line 6, in <module>
+    from compareorgs.forms import JobForm
+  File "/Users/beedwards/Git/sforgcompare-local/compareorgs/forms.py", line 5, in <module>
+    class JobForm(forms.Form):
+  File "/Users/beedwards/Git/sforgcompare-local/compareorgs/forms.py", line 9, in JobForm
+    org_one_session_id = forms.CharField(blank=True)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/forms/fields.py", line 198, in __init__
+    super(CharField, self).__init__(*args, **kwargs)
+TypeError: __init__() got an unexpected keyword argument 'blank'
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/handlers/base.py", line 112, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/beedwards/Git/sforgcompare-local/compareorgs/views.py", line 42, in index
+    job.save()
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/db/models/base.py", line 545, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/db/models/base.py", line 573, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/db/models/base.py", line 654, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/db/models/base.py", line 687, in _do_insert
+    using=using, raw=raw)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/db/models/manager.py", line 232, in _insert
+    return insert_query(self.model, objs, fields, **kwargs)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/db/models/query.py", line 1514, in insert_query
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/db/models/sql/compiler.py", line 903, in execute_sql
+    cursor.execute(sql, params)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/db/backends/util.py", line 69, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/db/utils.py", line 99, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/db/backends/util.py", line 53, in execute
+    return self.cursor.execute(sql, params)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/db/backends/sqlite3/base.py", line 451, in execute
+    return Database.Cursor.execute(self, query, params)
+IntegrityError: NOT NULL constraint failed: compareorgs_job.email_result
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 337, in resolve
+    for pattern in self.url_patterns:
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 365, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 360, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/Users/beedwards/Git/sforgcompare-local/sforgcompare/urls.py", line 6, in <module>
+    admin.autodiscover()
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover
+    import_module('%s.admin' % app)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/Users/beedwards/Git/sforgcompare-local/compareorgs/admin.py", line 43, in <module>
+    admin.site.register(Job, JobAdmin)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 92, in register
+    admin_class.validate(model)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/contrib/admin/options.py", line 106, in validate
+    validator.validate(cls, model)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/contrib/admin/validation.py", line 25, in validate
+    getattr(self, m)(cls, model)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/contrib/admin/validation.py", line 251, in validate_list_display
+    % (cls.__name__, idx, field, cls.__name__, model._meta.object_name))
+ImproperlyConfigured: JobAdmin.list_display[2], 'email' is not a callable or an attribute of 'JobAdmin' or found in the model 'Job'.
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/handlers/base.py", line 99, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 337, in resolve
+    for pattern in self.url_patterns:
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 365, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 360, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/Users/beedwards/Git/sforgcompare-local/sforgcompare/urls.py", line 6, in <module>
+    admin.autodiscover()
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/contrib/admin/__init__.py", line 29, in autodiscover
+    import_module('%s.admin' % app)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+  File "/Users/beedwards/Git/sforgcompare-local/compareorgs/admin.py", line 43, in <module>
+    admin.site.register(Job, JobAdmin)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/contrib/admin/sites.py", line 92, in register
+    admin_class.validate(model)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/contrib/admin/options.py", line 106, in validate
+    validator.validate(cls, model)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/contrib/admin/validation.py", line 25, in validate
+    getattr(self, m)(cls, model)
+  File "/Users/beedwards/.virtualenvs/sforgcompare-local/lib/python2.7/site-packages/django/contrib/admin/validation.py", line 251, in validate_list_display
+    % (cls.__name__, idx, field, cls.__name__, model._meta.object_name))
+ImproperlyConfigured: JobAdmin.list_display[2], 'email' is not a callable or an attribute of 'JobAdmin' or found in the model 'Job'.
