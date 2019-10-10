@@ -61,7 +61,9 @@ def index(request):
 			org_two.job = job
 			org_two.save()
 
-			return HttpResponseRedirect('/compare_orgs/' + str(job.random_id) + '/?api=' + job_form.cleaned_data['api_choice'])
+			#return HttpResponseRedirect('/compare_orgs/' + str(job.random_id) + '/?api=' + job_form.cleaned_data['api_choice'])
+			return render_to_response('downloading.html', RequestContext(request, {'job': job}))
+			
 
 	else:
 		job_form = JobForm()
@@ -82,7 +84,17 @@ def job_status(request, job_id):
 	}
 
 	return HttpResponse(json.dumps(response_data), content_type = 'application/json')
+# Show Download Satus after clicking the compare button
+def download_status(request, job_id):
 
+	job = get_object_or_404(Job, random_id = job_id)
+
+	response_data = {
+		'status': 'Finished',
+		'error': ''
+	}
+
+	return HttpResponse(json.dumps(response_data), content_type = 'application/json')
 # Page for user to wait for job to run
 def compare_orgs(request, job_id):
 
