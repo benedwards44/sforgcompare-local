@@ -1,6 +1,6 @@
 certifi==2019.6.16
 chardet==3.0.4
-Django==1.6.5
+Django==1.11.23
 django-widget-tweaks==1.4.5
 idna==2.8
 requests==2.22.0
